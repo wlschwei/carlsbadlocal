@@ -1,0 +1,83 @@
+/*------------------------------
+    Grid System
+------------------------------*/
+
+.row,
+.col {
+    box-sizing: border-box;
+}
+
+.col {
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.col-1 {
+    width: 6.86666666667%;
+}
+
+.col-2 {
+    width: 15.3333333333%;
+}
+
+.col-3 {
+    width: 23.8%;
+}
+
+.col-4 {
+    width: 32.2666666667%;
+}
+
+.col-5 {
+    width: 40.7333333333%;
+}
+
+.col-6 {
+    width: 49.2%;
+}
+
+.col-7 {
+    width: 57.6666666667%;
+}
+
+.col-8 {
+    width: 66.1333333333%;
+}
+
+.col-9 {
+    width: 74.6%;
+}
+
+.col-10 {
+    width: 83.0666666667%;
+}
+
+.col-11 {
+    width: 91.5333333333%;
+}
+
+.col-12 {
+    width: 100%;
+    margin-left: 0;
+}
+
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.col+.col {
+    margin-left: 1.6%;
+}
+
+
+/*
+ * 1. Do you see any CSS properties that are new to you? If so, research them and write a short description.
+ * 2. Do you see any CSS selectors that are new to you? If so, research them and write a short description.
+ */
