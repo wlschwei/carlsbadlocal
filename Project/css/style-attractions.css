@@ -107,7 +107,7 @@ body {
     left: 30px;
 }
 
-@media (min-width:769px) and (max-width:991px) {
+@media (min-width:769px) and (max-width:1500px) {
     .portfolio_images_overlay {
         padding: 0px;
     }
